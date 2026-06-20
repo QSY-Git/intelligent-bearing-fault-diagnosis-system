@@ -1,0 +1,7 @@
+[browser]
+# 跳过首次启动时的邮箱收集提示
+gatherUsageStats = false
+
+[server]
+# 无头模式，跳过交互式输入
+headless = true
