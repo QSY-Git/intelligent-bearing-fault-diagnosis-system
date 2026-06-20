@@ -1,0 +1,60 @@
+{
+  "experiment": "Experiment B (Cross-Load Generalization)",
+  "protocol": {
+    "description": "跨负载泛化实验 — 训练集使用 Load 0/1/2 HP，测试集使用 Load 3 HP",
+    "train_loads": [0, 1, 2],
+    "test_loads": [3],
+    "train_files": 30,
+    "test_files": 10
+  },
+  "data": {
+    "dataset": "CWRU 12k Drive End",
+    "sample_rate_hz": 12000,
+    "window_size": 1024,
+    "step": 512,
+    "num_classes": 4,
+    "class_names": ["正常", "内圈故障", "外圈故障", "滚动体故障"],
+    "class_names_en": ["Normal", "Inner Race", "Outer Race", "Ball"]
+  },
+  "svm": {
+    "type": "SVC (RBF kernel)",
+    "C": 100,
+    "gamma": "scale",
+    "pca_n_components": 6,
+    "input_features": 6,
+    "feature_order": ["均值", "均方根(RMS)", "峭度", "偏度", "主频(Hz)", "频谱能量"],
+    "validation": "3-fold GroupKFold manual grid search",
+    "test_metrics": {
+      "accuracy": 0.9623,
+      "balanced_accuracy": 0.9593,
+      "macro_f1": 0.9598
+    }
+  },
+  "cnn": {
+    "type": "1D-CNN (FaultCNN)",
+    "input_shape": [1, 1024],
+    "architecture": "Conv1D(16,k64,s2) + Conv1D(32,k32,s2) + FC(128) + FC(4)",
+    "representative_seed": 42,
+    "test_metrics_mean": {
+      "accuracy": 0.9804,
+      "balanced_accuracy": 0.9788,
+      "macro_f1": 0.9787
+    },
+    "test_metrics_std": {
+      "accuracy": 0.0128,
+      "balanced_accuracy": 0.0138,
+      "macro_f1": 0.0139
+    },
+    "seeds_used": [42, 123, 456]
+  },
+  "dependencies": {
+    "python": "3.14.3",
+    "scikit_learn": "1.9.0",
+    "torch": "2.12.1",
+    "numpy": "2.4.3",
+    "joblib": "1.5.3"
+  },
+  "generated_by": "tools/run_experiments.py",
+  "generated_at": "2026-06-20",
+  "note": "当前 Web 演示使用此跨负载模型。实验 A（全负载文件级划分）模型已被此模型覆盖，如需实验 A 模型请重新运行 run_experiments.py 并修改保存逻辑。"
+}
