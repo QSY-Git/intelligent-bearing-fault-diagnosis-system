@@ -1,0 +1,193 @@
+model,protocol,run,seed,metric,value
+SVM,Experiment_A,1,42,accuracy,0.8880572730231044
+SVM,Experiment_A,1,42,balanced_accuracy,0.8788757156157763
+SVM,Experiment_A,1,42,macro_precision,0.9052614635421774
+SVM,Experiment_A,1,42,macro_recall,0.8788757156157763
+SVM,Experiment_A,1,42,macro_f1,0.8685484456049793
+SVM,Experiment_A,1,42,weighted_precision,0.909102503950536
+SVM,Experiment_A,1,42,weighted_recall,0.8880572730231044
+SVM,Experiment_A,1,42,weighted_f1,0.8768019559159914
+SVM,Experiment_A,1,42,Normal_precision,0.9564336372847011
+SVM,Experiment_A,1,42,Normal_recall,1.0
+SVM,Experiment_A,1,42,Normal_f1,0.9777317452097359
+SVM,Experiment_A,1,42,Normal_support,944.0
+SVM,Experiment_A,1,42,Inner Race_precision,0.9135483870967742
+SVM,Experiment_A,1,42,Inner Race_recall,1.0
+SVM,Experiment_A,1,42,Inner Race_f1,0.9548213081591369
+SVM,Experiment_A,1,42,Inner Race_support,708.0
+SVM,Experiment_A,1,42,Outer Race_precision,0.7510638297872341
+SVM,Experiment_A,1,42,Outer Race_recall,0.9929676511954993
+SVM,Experiment_A,1,42,Outer Race_f1,0.8552392489400363
+SVM,Experiment_A,1,42,Outer Race_support,711.0
+SVM,Experiment_A,1,42,Ball_precision,1.0
+SVM,Experiment_A,1,42,Ball_recall,0.5225352112676056
+SVM,Experiment_A,1,42,Ball_f1,0.6864014801110083
+SVM,Experiment_A,1,42,Ball_support,710.0
+CNN,Experiment_A,1,42,accuracy,0.9980475105759844
+CNN,Experiment_A,1,42,balanced_accuracy,0.9978883144153246
+CNN,Experiment_A,1,42,macro_precision,0.9978922707375274
+CNN,Experiment_A,1,42,macro_recall,0.9978883144153246
+CNN,Experiment_A,1,42,macro_f1,0.9978863250781717
+CNN,Experiment_A,1,42,weighted_precision,0.9980548232704564
+CNN,Experiment_A,1,42,weighted_recall,0.9980475105759844
+CNN,Experiment_A,1,42,weighted_f1,0.9980475053971047
+CNN,Experiment_A,1,42,Normal_precision,1.0
+CNN,Experiment_A,1,42,Normal_recall,1.0
+CNN,Experiment_A,1,42,Normal_f1,1.0
+CNN,Experiment_A,1,42,Normal_support,944.0
+CNN,Experiment_A,1,42,Inner Race_precision,0.9943820224719101
+CNN,Experiment_A,1,42,Inner Race_recall,1.0
+CNN,Experiment_A,1,42,Inner Race_f1,0.9971830985915493
+CNN,Experiment_A,1,42,Inner Race_support,708.0
+CNN,Experiment_A,1,42,Outer Race_precision,0.9971870604781997
+CNN,Experiment_A,1,42,Outer Race_recall,0.9971870604781997
+CNN,Experiment_A,1,42,Outer Race_f1,0.9971870604781997
+CNN,Experiment_A,1,42,Outer Race_support,711.0
+CNN,Experiment_A,1,42,Ball_precision,1.0
+CNN,Experiment_A,1,42,Ball_recall,0.9943661971830986
+CNN,Experiment_A,1,42,Ball_f1,0.9971751412429378
+CNN,Experiment_A,1,42,Ball_support,710.0
+CNN,Experiment_A,2,123,accuracy,1.0
+CNN,Experiment_A,2,123,balanced_accuracy,1.0
+CNN,Experiment_A,2,123,macro_precision,1.0
+CNN,Experiment_A,2,123,macro_recall,1.0
+CNN,Experiment_A,2,123,macro_f1,1.0
+CNN,Experiment_A,2,123,weighted_precision,1.0
+CNN,Experiment_A,2,123,weighted_recall,1.0
+CNN,Experiment_A,2,123,weighted_f1,1.0
+CNN,Experiment_A,2,123,Normal_precision,1.0
+CNN,Experiment_A,2,123,Normal_recall,1.0
+CNN,Experiment_A,2,123,Normal_f1,1.0
+CNN,Experiment_A,2,123,Normal_support,944.0
+CNN,Experiment_A,2,123,Inner Race_precision,1.0
+CNN,Experiment_A,2,123,Inner Race_recall,1.0
+CNN,Experiment_A,2,123,Inner Race_f1,1.0
+CNN,Experiment_A,2,123,Inner Race_support,708.0
+CNN,Experiment_A,2,123,Outer Race_precision,1.0
+CNN,Experiment_A,2,123,Outer Race_recall,1.0
+CNN,Experiment_A,2,123,Outer Race_f1,1.0
+CNN,Experiment_A,2,123,Outer Race_support,711.0
+CNN,Experiment_A,2,123,Ball_precision,1.0
+CNN,Experiment_A,2,123,Ball_recall,1.0
+CNN,Experiment_A,2,123,Ball_f1,1.0
+CNN,Experiment_A,2,123,Ball_support,710.0
+CNN,Experiment_A,3,456,accuracy,1.0
+CNN,Experiment_A,3,456,balanced_accuracy,1.0
+CNN,Experiment_A,3,456,macro_precision,1.0
+CNN,Experiment_A,3,456,macro_recall,1.0
+CNN,Experiment_A,3,456,macro_f1,1.0
+CNN,Experiment_A,3,456,weighted_precision,1.0
+CNN,Experiment_A,3,456,weighted_recall,1.0
+CNN,Experiment_A,3,456,weighted_f1,1.0
+CNN,Experiment_A,3,456,Normal_precision,1.0
+CNN,Experiment_A,3,456,Normal_recall,1.0
+CNN,Experiment_A,3,456,Normal_f1,1.0
+CNN,Experiment_A,3,456,Normal_support,944.0
+CNN,Experiment_A,3,456,Inner Race_precision,1.0
+CNN,Experiment_A,3,456,Inner Race_recall,1.0
+CNN,Experiment_A,3,456,Inner Race_f1,1.0
+CNN,Experiment_A,3,456,Inner Race_support,708.0
+CNN,Experiment_A,3,456,Outer Race_precision,1.0
+CNN,Experiment_A,3,456,Outer Race_recall,1.0
+CNN,Experiment_A,3,456,Outer Race_f1,1.0
+CNN,Experiment_A,3,456,Outer Race_support,711.0
+CNN,Experiment_A,3,456,Ball_precision,1.0
+CNN,Experiment_A,3,456,Ball_recall,1.0
+CNN,Experiment_A,3,456,Ball_f1,1.0
+CNN,Experiment_A,3,456,Ball_support,710.0
+SVM,Experiment_B_CrossLoad,1,42,accuracy,0.9623498864005193
+SVM,Experiment_B_CrossLoad,1,42,balanced_accuracy,0.9592607611963919
+SVM,Experiment_B_CrossLoad,1,42,macro_precision,0.9632068377677795
+SVM,Experiment_B_CrossLoad,1,42,macro_recall,0.9592607611963919
+SVM,Experiment_B_CrossLoad,1,42,macro_f1,0.9598151680208593
+SVM,Experiment_B_CrossLoad,1,42,weighted_precision,0.9657495386642624
+SVM,Experiment_B_CrossLoad,1,42,weighted_recall,0.9623498864005193
+SVM,Experiment_B_CrossLoad,1,42,weighted_f1,0.9627402193025894
+SVM,Experiment_B_CrossLoad,1,42,Normal_precision,0.9957939011566772
+SVM,Experiment_B_CrossLoad,1,42,Normal_recall,1.0
+SVM,Experiment_B_CrossLoad,1,42,Normal_f1,0.9978925184404637
+SVM,Experiment_B_CrossLoad,1,42,Normal_support,947.0
+SVM,Experiment_B_CrossLoad,1,42,Inner Race_precision,0.9848714069591528
+SVM,Experiment_B_CrossLoad,1,42,Inner Race_recall,0.9143258426966292
+SVM,Experiment_B_CrossLoad,1,42,Inner Race_f1,0.9482884195193008
+SVM,Experiment_B_CrossLoad,1,42,Inner Race_support,712.0
+SVM,Experiment_B_CrossLoad,1,42,Outer Race_precision,0.9970059880239521
+SVM,Experiment_B_CrossLoad,1,42,Outer Race_recall,0.9353932584269663
+SVM,Experiment_B_CrossLoad,1,42,Outer Race_f1,0.9652173913043478
+SVM,Experiment_B_CrossLoad,1,42,Outer Race_support,712.0
+SVM,Experiment_B_CrossLoad,1,42,Ball_precision,0.8751560549313359
+SVM,Experiment_B_CrossLoad,1,42,Ball_recall,0.9873239436619718
+SVM,Experiment_B_CrossLoad,1,42,Ball_f1,0.927862342819325
+SVM,Experiment_B_CrossLoad,1,42,Ball_support,710.0
+CNN,Experiment_B_CrossLoad,1,42,accuracy,0.9980525803310614
+CNN,Experiment_B_CrossLoad,1,42,balanced_accuracy,0.9978932584269663
+CNN,Experiment_B_CrossLoad,1,42,macro_precision,0.9979050279329609
+CNN,Experiment_B_CrossLoad,1,42,macro_recall,0.9978932584269663
+CNN,Experiment_B_CrossLoad,1,42,macro_f1,0.9978902786652081
+CNN,Experiment_B_CrossLoad,1,42,weighted_precision,0.9980688994902983
+CNN,Experiment_B_CrossLoad,1,42,weighted_recall,0.9980525803310614
+CNN,Experiment_B_CrossLoad,1,42,weighted_f1,0.9980525572170651
+CNN,Experiment_B_CrossLoad,1,42,Normal_precision,1.0
+CNN,Experiment_B_CrossLoad,1,42,Normal_recall,1.0
+CNN,Experiment_B_CrossLoad,1,42,Normal_f1,1.0
+CNN,Experiment_B_CrossLoad,1,42,Normal_support,947.0
+CNN,Experiment_B_CrossLoad,1,42,Inner Race_precision,1.0
+CNN,Experiment_B_CrossLoad,1,42,Inner Race_recall,0.9915730337078652
+CNN,Experiment_B_CrossLoad,1,42,Inner Race_f1,0.995768688293371
+CNN,Experiment_B_CrossLoad,1,42,Inner Race_support,712.0
+CNN,Experiment_B_CrossLoad,1,42,Outer Race_precision,1.0
+CNN,Experiment_B_CrossLoad,1,42,Outer Race_recall,1.0
+CNN,Experiment_B_CrossLoad,1,42,Outer Race_f1,1.0
+CNN,Experiment_B_CrossLoad,1,42,Outer Race_support,712.0
+CNN,Experiment_B_CrossLoad,1,42,Ball_precision,0.9916201117318436
+CNN,Experiment_B_CrossLoad,1,42,Ball_recall,1.0
+CNN,Experiment_B_CrossLoad,1,42,Ball_f1,0.9957924263674615
+CNN,Experiment_B_CrossLoad,1,42,Ball_support,710.0
+CNN,Experiment_B_CrossLoad,2,123,accuracy,0.9750081142486205
+CNN,Experiment_B_CrossLoad,2,123,balanced_accuracy,0.9729634831460674
+CNN,Experiment_B_CrossLoad,2,123,macro_precision,0.9755400254129606
+CNN,Experiment_B_CrossLoad,2,123,macro_recall,0.9729634831460674
+CNN,Experiment_B_CrossLoad,2,123,macro_f1,0.9728499314888128
+CNN,Experiment_B_CrossLoad,2,123,weighted_precision,0.9774533178100643
+CNN,Experiment_B_CrossLoad,2,123,weighted_recall,0.9750081142486205
+CNN,Experiment_B_CrossLoad,2,123,weighted_f1,0.9749365392053322
+CNN,Experiment_B_CrossLoad,2,123,Normal_precision,1.0
+CNN,Experiment_B_CrossLoad,2,123,Normal_recall,1.0
+CNN,Experiment_B_CrossLoad,2,123,Normal_f1,1.0
+CNN,Experiment_B_CrossLoad,2,123,Normal_support,947.0
+CNN,Experiment_B_CrossLoad,2,123,Inner Race_precision,1.0
+CNN,Experiment_B_CrossLoad,2,123,Inner Race_recall,0.8918539325842697
+CNN,Experiment_B_CrossLoad,2,123,Inner Race_f1,0.9428359317000743
+CNN,Experiment_B_CrossLoad,2,123,Inner Race_support,712.0
+CNN,Experiment_B_CrossLoad,2,123,Outer Race_precision,1.0
+CNN,Experiment_B_CrossLoad,2,123,Outer Race_recall,1.0
+CNN,Experiment_B_CrossLoad,2,123,Outer Race_f1,1.0
+CNN,Experiment_B_CrossLoad,2,123,Outer Race_support,712.0
+CNN,Experiment_B_CrossLoad,2,123,Ball_precision,0.9021601016518425
+CNN,Experiment_B_CrossLoad,2,123,Ball_recall,1.0
+CNN,Experiment_B_CrossLoad,2,123,Ball_f1,0.948563794255177
+CNN,Experiment_B_CrossLoad,2,123,Ball_support,710.0
+CNN,Experiment_B_CrossLoad,3,456,accuracy,0.9681921454073353
+CNN,Experiment_B_CrossLoad,3,456,balanced_accuracy,0.9655898876404494
+CNN,Experiment_B_CrossLoad,3,456,macro_precision,0.9696782178217822
+CNN,Experiment_B_CrossLoad,3,456,macro_recall,0.9655898876404494
+CNN,Experiment_B_CrossLoad,3,456,macro_f1,0.9653837211381969
+CNN,Experiment_B_CrossLoad,3,456,weighted_precision,0.9720500287613961
+CNN,Experiment_B_CrossLoad,3,456,weighted_recall,0.9681921454073353
+CNN,Experiment_B_CrossLoad,3,456,weighted_f1,0.968043477786802
+CNN,Experiment_B_CrossLoad,3,456,Normal_precision,1.0
+CNN,Experiment_B_CrossLoad,3,456,Normal_recall,1.0
+CNN,Experiment_B_CrossLoad,3,456,Normal_f1,1.0
+CNN,Experiment_B_CrossLoad,3,456,Normal_support,947.0
+CNN,Experiment_B_CrossLoad,3,456,Inner Race_precision,1.0
+CNN,Experiment_B_CrossLoad,3,456,Inner Race_recall,0.8623595505617978
+CNN,Experiment_B_CrossLoad,3,456,Inner Race_f1,0.9260935143288085
+CNN,Experiment_B_CrossLoad,3,456,Inner Race_support,712.0
+CNN,Experiment_B_CrossLoad,3,456,Outer Race_precision,1.0
+CNN,Experiment_B_CrossLoad,3,456,Outer Race_recall,1.0
+CNN,Experiment_B_CrossLoad,3,456,Outer Race_f1,1.0
+CNN,Experiment_B_CrossLoad,3,456,Outer Race_support,712.0
+CNN,Experiment_B_CrossLoad,3,456,Ball_precision,0.8787128712871287
+CNN,Experiment_B_CrossLoad,3,456,Ball_recall,1.0
+CNN,Experiment_B_CrossLoad,3,456,Ball_f1,0.9354413702239789
+CNN,Experiment_B_CrossLoad,3,456,Ball_support,710.0
